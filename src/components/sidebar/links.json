@@ -1,0 +1,33 @@
+{
+  "links": [
+    {
+      "path": "/",
+      "content": "Statistika"
+    },
+    {
+      "path": "/products",
+      "content": "Mahsulotlar"
+    },
+    {
+      "path": "/warehouse",
+      "content": "Omborxona"
+    },
+    {
+      "path": "/users",
+      "content": "Foydalanuvchilar"
+    },
+
+    {
+      "path": "/contracts",
+      "content": "Shartnomalar"
+    },
+    {
+      "path": "/transactions",
+      "content": "Tranzaksiyalar"
+    },
+    {
+      "path": "/reports",
+      "content": "Xisobotlar"
+    }
+  ]
+}
