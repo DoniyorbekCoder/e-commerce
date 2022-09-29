@@ -1,1 +1,0 @@
-import{E as r}from"./index.52fd6dce.js";async function n(){try{const t=await r.get("category/all");return[null,t.data]}catch(t){return[t,null]}}async function s(t){try{const a=await r({url:"category",method:t.id===null?"POST":"PUT",data:{id:t.id,name:t.name,priority:t.priority,active:t.active,foods:t.foods}});return[null,a]}catch(a){return[a,null]}}export{n as g,s as p};
