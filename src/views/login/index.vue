@@ -16,7 +16,7 @@ function handleSubmit() {
   if (data.passwordError === "") {
     handleAuth(data).then((res) => {
       if (res[0] === null) {
-        sessionStorage.setItem("token", res[1].token);
+        localStorage.setItem("token", res[1].token);
         router.push("/");
       } else {
         data.passwordError = "Parol yoki foydalanuvchi nomi xato";

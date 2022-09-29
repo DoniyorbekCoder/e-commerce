@@ -9,7 +9,7 @@ const data = reactive<{ token: string | null }>({
   token: null,
 });
 function handleUser() {
-  data.token = sessionStorage.getItem("token");
+  data.token = localStorage.getItem("token");
   if (data.token === null) {
     router.push("/login");
     setTimeout(handleUser, 100);
